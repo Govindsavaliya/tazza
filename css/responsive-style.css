@@ -1,0 +1,83 @@
+@media(max-width:1170px) {
+
+    /* Genral css */
+    .section-subtitle {
+        max-width: 60%;
+    }
+
+    /* 01 navbar css */
+    
+
+    /* 02 banner css */
+    .banner_section .carousel-item{
+        height: 90vh;
+    }
+}
+
+@media(max-width:991px) {
+
+    /* Genral css */
+    .about .banner_section,
+    .product .banner_section,
+    .gallery .banner_section,
+    .contact .banner_section {
+        padding-top: 12.5rem;
+        padding-bottom: 3rem;
+    }
+
+    /* 01 navbar css */
+    .header .navbar {
+        background-size: cover;
+        padding: 2rem;
+    }
+
+    .header .navbar-nav {
+        margin-top: 2rem;
+    }
+
+    .header .navbar-nav .nav-link {
+        padding: 0.2rem 0.5rem;
+        margin-bottom: 1rem;
+    }
+
+
+    .header .header_right span {
+        padding: 0.2rem 0.5rem;
+    }
+
+    /* 02 banner css */
+}
+
+@media(max-width:767px) {
+    /* Genral css */
+    body,html{
+        font-size: 8px;
+    }
+
+    .section-subtitle{
+        max-width: 80%;
+    }
+
+    /* 01 navbar css */
+
+
+    /* 02 banner css */
+    .banner_section{
+        min-height: 70vh;
+    }
+    .banner_section .carousel-item{
+        height: 70vh;
+    }
+}
+
+@media(max-width:590px) {
+    /* Genral css */
+    body,html{
+        font-size: 7px;
+    }
+
+    /* 01 navbar css */
+
+
+    /* 02 banner css */
+}
